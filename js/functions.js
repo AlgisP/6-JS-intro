@@ -170,3 +170,13 @@ console.log( isrinktiRaides("abc", 0));             //Antrasis kintamasis turi b
 console.log( isrinktiRaides("abc", 4));             //Antrasis kintamasis turi buti ne didesnis uz pateikto teksto ilgi
 console.log( isrinktiRaides( 1561, 2));             //Pirmasis kintamasis yra netinkamo tipo
 console.log( isrinktiRaides("", 1000));
+
+
+
+
+function skaiciusKvadratu(skaicius) {
+    return skaicius * skaicius;
+}
+
+console.log(skaiciusKvadratu(3));
+console.log(skaiciusKvadratu(10));
